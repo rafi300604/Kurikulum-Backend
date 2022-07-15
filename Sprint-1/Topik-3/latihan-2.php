@@ -1,13 +1,12 @@
 <?php
 
-//karena n dimulai dari 1 maka variabel n tidak dikurang 1
+//n = 9, ketika nanti saat ditampilkan sudah ada perhitungannya, jadi deret aritmatika ada 9 bilangan (n = 9)
 $n = 9;
-$batasLooping = $n * 2;
 
 
-$i = 1;
-
-while($i <= $batasLooping) {
-    echo "$i ";
-    $i += 2;
+for ($i = 0; $i <= $n; $i++) {
+    if ($i == $n) {
+        continue;
+    }
+    echo "" . ($i * 2 + 1) . " ";
 }
