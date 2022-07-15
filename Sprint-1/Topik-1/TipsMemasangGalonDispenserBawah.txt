@@ -1,0 +1,43 @@
+PROGRAM Tips-memasang-galon-dispenser-bawah
+
+SET alat = dipenserGalonBawah, pisau, tangan; 
+SET bahan = galon, tissuGalon;
+SET alatDipenserGalonBawah = pipa, penutupDispenserbagianBawah;
+SET alatGalon = penutup;
+
+IF dipenserGalonBawah = nyala THEN
+  penutupDispenserbagianBawah = mati 
+ELSE
+  galon ≠ diGantiYangBaru
+END IF
+
+IF galon = sudahDiBersihkanPakai tissuGalon THEN
+  galon = bukaPenutupPakai tangan
+ELSE 
+  galon = bukaPenutupPakai pisau
+END IF   
+
+IF galon = buka penutup THEN
+  galon = masukkan -> penutupDispenserbagianBawah 
+END IF
+  
+
+IF galon = masukkan -> dipenserGalonBawahispenser
+  galon = pasang pipa
+ELSE
+  galon = tidak di pasang
+END IF  
+
+IF galon = pasang pipa
+  penutupDispenserbagianBawah = tutup
+ELSE
+  penutupDispenserbagianBawah = buka
+END IF
+
+IF penutupDispenserbagianBawah = tutup THEN
+  dispenser = nyala
+
+END IF
+  
+  
+

@@ -1,0 +1,1 @@
+Where digunakan untuk mengidentifikasi lokasi executable.

@@ -1,0 +1,2 @@
+&& (dan) adalah operator logika yang jika salah satunya saja ada data false maka outputnya adalah false, tetapi jika kedua datanya adalah true maka outputnya adalah true. Berbeda dengan || (atau), atau adalah operator logika yang jika salah satunya false maka outputnya adalah true, tetepi jika dua-duanya false maka outputnya adalah false. Terakhir adalah ! (tidak sama dengan) ini adalah output dari kebalikannya data yang kita input, contoh :
+var_dump(!true) outputnya adalah false.  

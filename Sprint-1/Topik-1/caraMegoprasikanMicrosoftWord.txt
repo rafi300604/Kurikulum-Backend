@@ -1,0 +1,20 @@
+PROGRAM cara-mengoprasikan-microsoftWord
+
+SET aplikasi = microsoftWord;
+SET lokasi = desktop, start menu, file explorer;
+SET DashBoardMicrosoftWord = Home, New, Open;
+SET display = blankDocument; 
+
+IF microsoftWord ≠ desktop THEN
+  Buka microsoftWord di start menu
+ELSE 
+  Buka microsoftWord di file explorer
+END IF
+
+IF Home ≠ blankDocument THEN
+  Klik New buka blankDocument
+ELSE
+  klik Home buka blankDocument
+END IF 
+
+ 
