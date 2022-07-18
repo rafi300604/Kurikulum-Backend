@@ -1,9 +1,11 @@
 <?php
 
+$n = 9 ;
 
-for ($i = 0; $i <= 4; $i++) {
-    if ($i == 4) {
+
+for ($i = 0; $i < $n; $i++) {
+    if ($i % 2 == 0 ) {
         continue;
     }
-    echo "" . ($i * 2 + 1) . " ";
+    echo "$i ";
 }
